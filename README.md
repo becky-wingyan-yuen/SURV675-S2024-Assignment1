@@ -12,7 +12,7 @@ b. explain the organization of the repo (folder structure, where they can find t
 
 c. main findings where you include the three graphs and a sentence or two on their interpretation
 
-
+![Alt text](fig1.jpeg)
 
 d. session info to help with reproducibility
 
