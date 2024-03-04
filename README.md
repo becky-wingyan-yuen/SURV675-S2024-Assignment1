@@ -14,6 +14,10 @@ c. main findings where you include the three graphs and a sentence or two on the
 
 ![Alt text](fig1.jpeg)
 
+![Alt text](fig2.jpeg)
+
+![Alt text](fig3.jpeg)
+
 d. session info to help with reproducibility
 
 
