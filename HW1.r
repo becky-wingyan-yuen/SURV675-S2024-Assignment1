@@ -48,7 +48,7 @@ All_data_long_date = All_data_long %>%
 
 graph1 = ggplot(data = All_data_long_date, mapping = aes(x = date, y = log(ncase_bydate)))
 (fig1 = graph1 + geom_line() + 
-		labs(x = "Date", y = "Number of cases (in log form)", 
+		labs(x = "Time (Date)", y = "Number of cases (in log form)", 
 		title = "Overall change of number of cases (in log form)"))
 ggsave("fig1.jpeg", width = 10, height = 5)
 
@@ -57,17 +57,23 @@ All_data_long_date_country = All_data_long %>%
 						summarize(ncase_bydate = sum(n_case)) %>% 
 						arrange(date) 
 
+Temp_data_by_country = All_data_long_date_country[,2:3] %>% 
+            group_by(Country_Region) %>% 
+            summarize(sum_ncase = sum(ncase_bydate))%>% 
+            arrange(desc(sum_ncase)) 
 
-graph2 = ggplot(data = All_data_long_date_country, mapping = aes(x = date, y = log(ncase_bydate)))
+All_data_long_date_Top5Country = All_data_long_date_country[which(All_data_long_date_country$Country_Region%in%as.vector(t(Temp_data_by_country[1:5,1]))),]
+
+graph2 = ggplot(data = All_data_long_date_Top5Country, mapping = aes(x = date, y = log(ncase_bydate)))
 (fig2 = graph2 + geom_line(aes(group = Country_Region)) + 
-		labs(x = "Date", y = "Number of cases (in log form)", 
+		labs(x = "Time (Date)", y = "Number of cases (in log form)", 
 		title = "Change of number of cases (in log form) by Country"))
 ggsave("fig2.jpeg", width = 10, height = 5)
 
 
-graph3 = ggplot(data = All_data_long_date_country, mapping = aes(x = date, y = ncase_bydate/10000))
+graph3 = ggplot(data = All_data_long_date_Top5Country, mapping = aes(x = date, y = ncase_bydate/10000))
 (fig3 = graph3 + geom_line(aes(group = Country_Region)) + 
-		labs(x = "Date", y = "Incident Rate", 
+		labs(x = "Time (Date)", y = "Incident Rate", 
 		title = "Change of Incident Rate (cases per 100,000 persons) by Country"))
 ggsave("fig3.jpeg", width = 10, height = 5)
 
