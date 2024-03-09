@@ -4,14 +4,14 @@ SURV675 S2024 Assignment 1 Q3
 
 ## Contents
 
-- [Description of the project](#description)
+- [Description](#description)
 - [Repo Contents](#repo-contents)
 - [Main findings](#main-findings)
 - [Demo](#demo)
 
 
 
-### Description of the project
+### Description
 
 In this project we aim to investigate the trend of COVID-19 cases over the past few years. All data are downloaded from [JHU CSSE COVID-19 Dataset](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
