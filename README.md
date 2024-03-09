@@ -1,16 +1,29 @@
 # SURV675 S2024 Assignment 1
 SURV675 S2024 Assignment 1 Q3
 
-a. description of the project (what you aim to do, where you got the data from, etc.)
+
+##Contents
+
+- [Description of the project](#description)
+- [Repo Contents](#repo-contents)
+- [Main findings](#main-findings)
+- [Demo](#demo)
+
+
+
+# Description of the project
+
+In this project we aim to investigate the trend of COVID-19 cases over the past few years. All data are downloaded from [JHU CSSE COVID-19 Dataset](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
+
+
+# Repo Contents 
+(folder structure, where they can find the data and scripts, what were the steps in creating the report)
 
 
 
 
-b. explain the organization of the repo (folder structure, where they can find the data and scripts, what were the steps in creating the report)
-
-
-
-c. main findings where you include the three graphs and a sentence or two on their interpretation
+# Main findings 
+(where you include the three graphs and a sentence or two on their interpretation)
 
 ![Alt text](fig1.jpeg)
 
@@ -18,6 +31,8 @@ c. main findings where you include the three graphs and a sentence or two on the
 
 ![Alt text](fig3.jpeg)
 
-d. session info to help with reproducibility
+
+
+# Demo
 
 
