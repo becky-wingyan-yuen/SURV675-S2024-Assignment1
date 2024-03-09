@@ -12,22 +12,18 @@
 
 
 ### Description
-(what you aim to do, where you got the data from, etc.)
 
 In this project we aim to investigate the trend of COVID-19 cases over the past few years. All data are downloaded from [JHU CSSE COVID-19 Dataset](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
 
 ### Repo Contents 
-(folder structure, where they can find the data and scripts, what were the steps in creating the report)
 
 - [code](./code): `R` code to reproduce the graphs.
 - [data](./data): downloaded and processed data.
 - [figures](./figures): output graphs.
 
 
-
 ### Main findings 
-(where you include the three graphs and a sentence or two on their interpretation)
 
 ![Alt text](./figures/fig1.jpeg)
 We can see that overall the number of cases has been increasing since 2020.
