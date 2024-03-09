@@ -31,7 +31,7 @@ We can see that overall the number of cases has been increasing since 2020.
 The trends in different countries are consistent with the overall trend.
 
 ![Alt text](./figures/fig3.jpeg)
-That being said, the change in incident rates are differ among different countries.
+That being said, the change in incident rates differs among different countries.
 
 
 ### Demo
