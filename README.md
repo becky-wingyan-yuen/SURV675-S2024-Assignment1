@@ -20,17 +20,20 @@ In this project we aim to investigate the trend of COVID-19 cases over the past 
 ### Repo Contents 
 (folder structure, where they can find the data and scripts, what were the steps in creating the report)
 
+- [code](./code): `R` code.
+- [data](./data): the example data for the demo.
+- [figures](./figures): figures.
 
 
 
 ### Main findings 
 (where you include the three graphs and a sentence or two on their interpretation)
 
-![Alt text](fig1.jpeg)
+![Alt text](./figures/fig1.jpeg)
 
-![Alt text](fig2.jpeg)
+![Alt text](./figures/fig2.jpeg)
 
-![Alt text](fig3.jpeg)
+![Alt text](./figures/fig3.jpeg)
 
 
 
