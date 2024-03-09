@@ -30,17 +30,18 @@ In this project we aim to investigate the trend of COVID-19 cases over the past 
 (where you include the three graphs and a sentence or two on their interpretation)
 
 ![Alt text](./figures/fig1.jpeg)
-
+We can see that overall the number of cases has been increasing since 2020.
 
 ![Alt text](./figures/fig2.jpeg)
+The trends in different countries are consistent with the overall trend.
 
 ![Alt text](./figures/fig3.jpeg)
-
+That being said, the change in incident rates are differ among different countries.
 
 
 ### Demo
 
-Code for downloading data sets. You may need to install package `readr` first, to do so please run `install.packages("readr")` in an `R` session.
+`R` code for downloading the data sets. You may need to install package `readr` first, to do so please run `install.packages("readr")` in an `R` session.
 
 ```
 library(readr)
