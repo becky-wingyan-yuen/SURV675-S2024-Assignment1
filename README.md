@@ -1,5 +1,4 @@
 # SURV675 S2024 Assignment 1
-(SURV675 S2024 Assignment 1 Q3)
 
 
 ## Contents
