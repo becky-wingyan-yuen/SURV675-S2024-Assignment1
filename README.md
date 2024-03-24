@@ -38,7 +38,6 @@ That being said, the change in incident rates differs among different countries.
 
 
 ```
-
 sessionInfo()
 
 R version 4.3.2 (2023-10-31 ucrt)
